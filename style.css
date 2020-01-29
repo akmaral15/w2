@@ -1,119 +1,190 @@
- .phone {
-	padding-top:70px;
-	height:650px;
-	float:right;
-	margin:10px;
-}
-
-body 
-{
-	background-color: #fafafa;
-}
-.container
-{
-	margin-top:20px;
-}
-.right-column
-{
-	background: #fff;
-	border: 1px solid #e6e6e6;
-	width:350px;
-	margin:10px;
-	padding:40px;
-}
-.instagram-logo
-{
-	margin:15px auto;
-	height:70px;
-	weight:140px;
+*{
+	padding: 0px;
+	margin:0px;
 
 }
-.info
+body
 {
-	font-weight: 600px;
-	line-height:20px;
-	font-size:17px;
-	color: #999;
+background-color:rgb(230,230,244);
 }
-button img
-{
-	height: 18px;
-	padding: 0 8px 2px;
-}
+ 
+ header
+ {
+ 	background: #415e9b;
+ 	height:82px;
+ 	border-bottom: 1px solid #133783;
+ }
+ .img
+ {
+ 	height:60px;
+ }
+ .header-block
+ {
+ 	width:990px;
+ 	margin: 0 auto;
+ 	padding-top: 20px
+ }
+ .logo
+ {
+ 	width:50%;
+float:left;
+ }
+ .facebook-login
+ {
+ 	width:50%;
+ 	float:left;
+ }
+ 
+ .header-block label
+ {
+ 	color:#fff;
+ }
+ .email {
+ 	float:left;
 
-.or{
-	font-size:13px!important;
-	color: #999;
-	font-weight: 600;
+ }
+ .email label
+ {
+ 	padding-bottom:10px;
+ }
+ .email input[type="text"]
+ {
+ 	height:20px;
+ 	width:150px;
+ 	border:1px solid #1d2a5b;
+ }
+ .password
+ {
+ 	float:left;
+ 	margin-left:15px;
+ }
+ .password input[type="password"]
+ {
+ 	height:20px;
+ 	width:150px;
+ 	border:1px solid #1d2a5b;
+ }
+ .password a
+ {
+ 	color:#8fb1d8;
+ 	text-decoration: none;
+ }
+ .password label
+ {
+ 	padding-bottom:10px;
+ }
+ .login-button
+ {
+ 	float:left;
+ 	margin-top:20px;
 
-}
-.or::before
+ }
+ .login-button input[type="submit"]
+ {
+ 	background: #4267b2;
+ 	border:1px solid #29487d;
+ 	border-radius: 2px;
+ 	color:#fff;
+ 	 	margin-left: 20px;
+ 	 	height: 20px;
+ }
+ .clearfix
+ {
+ 	clear:both;
+ }
+ .content-block
+ {
+ 	width:990px;
+ 	margin:0 auto;
+ }
+ .facebook-connect
+ {
+ 	margin-top: 50px;
+ 	float:left;
+ 	width:50%;
+ }
+ .facebook-connect img
+ {
+ 	margin-top: 10px;
+ }
+.facebook-connect p
 {
-	content: '';
-	background:#efefef;
-	display: block;
-	height:2px;
-	width: 110px;
-	position: relative;
-	top:11px;
+	color:#0e385f;
+	font-size:20px;
+	font-weight:bold;
+}
+.facebook-connect img
+{
+	margin-top:10px;
+}
+.create-account{
+	float:left;
+	width:50%;
+}
+.content-container
+{
+	background: linear-gradient(#fff, #d9ddeb);
+	overflow:hidden;
+}
+.create-account h2
+{
+	font-size: 40px;
+}
+ .create-account .free{
+ 	font-size: 25px;
+ 	margin-top:20px;
+ 	margin-bottom: 20px;
+ }
+ .account input[type="text"]
+ {
 
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px
+ }
+  .account input[type="date"]
+ {
 
-}
-.or::after
-{
-	content: '';
-	background:#efefef;
-	display: block;
-	height:2px;
-	width: 110px;
-	position: relative;
-	bottom:10px;
-	left:160px;
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px
+ }
+  .account input[type="radio"]
+ {
 
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px
+ }
+  .account input[type="submit"]
+ {
 
-}
-.form-group
-{
-	margin-bottom:6px ;
-}
-.form-control
-{
-	background: #fafafa ;
-	border:1px solid #efefef;
-	font-size:12px;
-}
-::placeholder
-{
-	color:#999;
-}
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px
 
-.btn
-{
-	margin: 12px auto;
-	padding: 2px;s
-	font-weight:600;
-}
-.btn-primary
-{
-background-color:#3897f0;
-border: 1px solid #3897f0;
-}
-.terms
-{
-	line-height:18px;
-	font-size:14px;
-	color:#999;
-	margin: 5px 20px;
-}
-.right-column-login
-{
-	background: #fff;
-	border: 1px solid #e6e6e6;
-	width:350px;
-	margin:10px;
-	padding:20px;
-}
-.right-column-login a:hover
-{
-text-decoration: none;
-}
+ }
+ 
+ .t{
+ 	margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px
+ }
+
+  .account input[type="password"]
+ {
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px
+ }
+ .account a
+ {
+ 	text-decoration: none;
+ 	color:#3677bc;
+ }
+ .image
+ {
+ 	height:250px;
+ 	width:350px;
+ }
+

@@ -1,0 +1,124 @@
+
+*
+{
+	padding: 0px;
+	margin:0px;
+}
+ header
+ {
+ 	background:rgb(2,132,190);
+ 	height:200px;
+ 	border-bottom: 1px solid #133783;
+ }
+ body
+ {
+background-color:rgb(231,235,240);
+ }
+ #lg-text
+ {
+ 	color:white;
+        	position: fixed; 
+            top: 40%; 
+            left: 68%; 
+            margin-top: -100px; 
+            margin-left: -100px;  
+        	font-weight:bold;
+ }
+ .logo
+ {
+ 	width:30px;
+ 	height:30px;
+position: fixed; 
+         
+            top: 39%; 
+            left: 43%; 
+            margin-top: -100px; 
+            margin-left: -100px;  
+        }
+        #logo-text
+        {
+        	color:white;
+        	position: fixed; 
+            top: 40%; 
+            left: 46%; 
+            margin-top: -100px; 
+            margin-left: -100px;  
+        	font-weight:bold;
+        }
+ .sign-up-form
+ {
+ 	width:300px;
+ 	height:250px;
+ 	margin-top: 45%;
+ 	margin-bottom: 40px;
+ 	background: #fff;
+ 	padding: 30px;
+ 	margin:2% auto 0;
+ 	text-align: center;
+ }
+ #sign
+ {
+ 	float:left;
+ }
+ .input_field
+ {
+float:left;
+ }
+
+
+ .sign-text{
+ 	color:gray;
+ }
+ #textt
+ {
+ 	float:left;
+ 	color:gray;
+ }
+ #welcome
+ {
+ 	color:rgb(74,124,151);
+ 	text-align: center;
+ 	bottom:20px;
+ }
+ 
+<html>
+<link rel="stylesheet" type="text/css" href="style.css" />
+ <body>
+<header>
+	<div class="right-column text-center">
+
+		<img src="yy.png" class="logo" > <p id="logo-text">Telegram</p>
+		<p id="lg-text">Next ></p>
+	</header>	
+		
+		<div class="sign-up-form">
+		
+			<form>
+				<h3 id="sign"> Sign In</h3><br>
+				<p id="textt">Please choose your country and enter your full phone number.</p>
+
+				<div class="input_field">
+
+			<label class="sign-text"> Country  </label><br>
+			<input type="text" class="input" placeholder="Kazakhstan"><br>
+		</div>
+			<div class="input_field"><br>
+			<label class="sign-text" > Code  </label><br>
+			<input type="phone number" class="input"placeholder="+7 7"><br>
+		</div>
+		<div class="input_field"><br>
+				<input type="phone number" class="input-box" placeholder="Phone number">
+				</div>
+</div>
+
+
+			</form>
+		
+<footer>
+	<p id="welcome">Welcome to the official Telegram web-client.</p>
+</footer>
+
+
+</body>	
+</html>
+
